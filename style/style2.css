@@ -1,0 +1,63 @@
+body {
+    font: 20px Arial, Sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    background: rgb(63, 61, 61);
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+    color: black;
+}
+
+.principal {
+    background: url(../img/back1.png);
+    color: white;
+}
+
+.down {
+    background: rgb(63, 61, 61);
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+.logo {
+    padding-bottom: 15px;
+}
+
+.letter {
+    color: white;
+}
+.letter .list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.letter .list a {
+    color: gray;
+    text-decoration: none;
+}
+
+.letter .list a:hover{
+    color: white;
+}
+
+.mb-3 {
+    color: black;
+}
+
+.bentech {
+    align-items: flex-end;
+}

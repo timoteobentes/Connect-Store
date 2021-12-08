@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: url(../img/back1.png);
+    color: white;
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70%;
+    height: 100vh;
+}
+
+.compras {
+    margin-right: 100px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.login-texto {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.oi {
+    font-size: 15px;
+    margin: 15px;
+}
+
+.entrada {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto {
+    font-size: 20px;
+}
+
+.email {
+    margin-bottom: 9px;
+}
+.senha {
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.lembrar {
+    margin-top: 30px;
+}
+
+.botao-entrar {
+    margin-left: 50px;
+    color: white;
+    background-color: blue;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10%;
+}
+
+.botao-entrar:hover {
+    background-color: white;
+    color: blue;
+    transition: 1s ease all;
+}
+
+.novo {
+    padding-top: 60px;
+}
+
+.cadastra-se {
+    color: rgb(0, 110, 255);
+}
+
+.cadastra-se:hover {
+    color: black;
+}
+
+.esqueceu-senha {
+    display: flex;
+    justify-content: center;
+    color: grey;
+    margin-top: 15px;
+}
+
+.esqueceu-senha:hover {
+    color: black;
+}
+
+@media screen and (max-width: 1000px){
+    .login {
+        display: flex;
+    }
+
+    .lembrar {
+        display: flex;
+    }
+}
